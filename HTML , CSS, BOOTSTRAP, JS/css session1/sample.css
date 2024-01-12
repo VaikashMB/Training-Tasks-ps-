@@ -1,0 +1,34 @@
+h1{ color: brown;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+    font-weight: lighter;
+    
+}
+body{
+    background-color: aqua;
+   background-image: url(https://images.unsplash.com/photo-1604085572504-a392ddf0d86a?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlJTIwZmxvd2VyfGVufDB8fDB8fHww);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: scroll;
+   border-style: dotted;
+   border-width: thin;
+   border-radius: 10px;
+   
+   
+   
+}
+
+p{ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 500;
+}
+.p1{
+    color: bisque;
+}
+.p2{
+    color: azure;
+}

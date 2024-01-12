@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js_task1.css">
+</head>
+<body>
+    
+    <div class="container">
+        <button id="lightTheme"> LightTheme</button>
+       <button id="darkTheme">  DarkTheme</button>
+       <img id=" themeImage" src="">
+    </div>
+    
+    <script>
+        const lightThemeButton=document.getElementById("lightTheme");
+        const darkThemeButton=document.getElementById("darkTheme");
+        const themeImage=document.getElementById("themeImage");
+
+        lightThemeButton.addEventListener("click",()=>{
+            switchTheme("light")});
+
+        darkThemeButton.addEventListener("click",()=>{
+            switchTheme("dark")});  
+        
+        
+function switchTheme(theme){
+            if(theme==="light"){
+                document.body.style.backgroundColor="white";
+                document.body.style.color="black";
+                themeImage.src="https://www.shutterstock.com/shutterstock/photos/2198009967/display_1500/stock-photo-autumn-forest-path-orange-color-tree-red-brown-maple-leaves-in-fall-city-park-nature-scene-in-2198009967.jpg";
+            }
+            else if(theme==="dark"){
+                document.body.style.backgroundColor="black";
+                document.body.style.color="white";
+                themeImage.src="https://w0.peakpx.com/wallpaper/42/267/HD-wallpaper-nature-scenery-scenery-nature.jpg";}
+            else {
+                console.log("invalid");
+            }
+
+
+}
+
+
+    </script>
+</body>
+</html>

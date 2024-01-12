@@ -1,0 +1,13 @@
+/* .carousel-item active{
+    width: 400px;
+    height: 400px;
+}
+.card-body{
+    flex-direction: row;
+} */
+
+
+body{
+    background-image: url("images/nordgreen-NW27UhnzNw8-unsplash.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,74 @@
+body{
+    background-image: url("https://images7.alphacoders.com/363/363760.jpg");
+    
+    background-size: cover;
+}
+
+#teams{
+    display: flex;
+    gap: 146px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-style: italic;
+
+}
+#container{
+    border: 5px solid black;
+    margin-left: 1219px;
+  margin-right: 100px;
+
+}
+#timer{
+    display: flex;
+    gap: 20px;
+    margin-left: 146px;
+  font-size: 20px;
+}
+.head{
+   margin-left: 1214px;
+  margin-top: 171px;
+  font-size: 38px;
+  color: brown;
+
+}
+#hawScore,#jorScore {
+  margin-left: 52px;
+  font-size: 40px;
+  font-style: italic;
+}
+#hawBtn,#jorBtn{
+    width: 68px;
+    height: 68px;
+    margin-bottom: 10px;
+    margin-left: 34px;
+    background-color: brown;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    border: 1px solid;
+  
+}
+#tie{
+    margin-left: 1356px;
+  font-size: 29px;
+  margin-top: 51px;
+  color: darkblue;
+}
+#winner{
+    margin-left: 1193px;
+  margin-top: 40px;
+  font-size: 23px;
+  color: green;
+}
+#newGame{
+    margin-left: 1342px;
+  margin-top: 30px;
+  font-size: 25px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  width: 300px;
+  height: 50px;
+
+}

@@ -1,0 +1,18 @@
+
+body {
+    /* Light mode styles */
+    background-color: #eed29f;
+    color: #000000;
+  }
+   
+  body.dark-mode {
+    /* Dark mode styles */
+    background-color: black;
+    color: #ffffff;
+  }
+
+
+  .modalBox {
+    background-color: black;
+    color: white;
+  }

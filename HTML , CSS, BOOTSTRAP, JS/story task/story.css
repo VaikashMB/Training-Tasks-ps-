@@ -1,0 +1,102 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.story {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none; */
+    /* cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+
+#page1,#page2,#page3,#apple,#banana,#page4{
+    width: 800px;
+    height: 400px;
+    background-color: aquamarine;
+    font-size: larger;
+    margin-left: 500px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 250px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+h1{
+    color: palevioletred;
+    font-style: italic;
+    
+    text-align: center;
+}
+#page1Btn{
+    margin-left: 300px;
+    background-color: aliceblue;
+    color: palevioletred;
+    font-size: 15px;
+    width: 220px;
+    height: 80px;
+    transition: width 0.4s;
+}
+#page1Btn:hover{
+    width: 250px;
+}
+
+
+.hidden{
+    display: none;
+}
+#page2>p{
+    text-align: center;
+    font-size: 25px;
+    
+}
+#page2Btn1,#page2Btn2,#appleBtn,#bananaBtn{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 150px;
+    transition: width 0.4s;
+}
+#bananaBtn:hover{
+    width: 180px;
+}
+#appleBtn:hover{
+    width: 180px;
+}
+#page2Btn1:hover{
+    width: 180px;
+}
+#page2Btn2:hover{
+    width: 180px;
+}
+
+
+#page3>p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#apple,#banana,#page4{
+    text-align: center;
+}
+#apple>p,#banana>p,#page4>p{
+    margin-top: 200px;
+    font-size: 40px;
+    color: palevioletred;
+    font-style: italic;
+}

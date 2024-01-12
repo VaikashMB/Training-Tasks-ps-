@@ -1,0 +1,80 @@
+/* div{
+    border-style:double;
+    border-radius: 30px;
+    border-width: thick;
+    text-align: center;
+    background-color: azure;
+    border-color: rgb(31, 126, 113);
+    margin-top: 100px;
+    padding-bottom: 200px;
+    border-bottom: none;
+    width: 200px;
+} */
+/* .tree{
+    background-color: rgb(105, 17, 25);
+    position:relative;
+    bottom: 100px;
+    color: white;
+    
+
+}
+body{background-color: rgb(53, 84, 110);
+    height: 2000px;
+    
+
+}
+p {position: fixed;
+    text-align: center;
+    float: bottom; */
+    
+
+/* }
+nav{
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid firebrick;
+    color: aliceblue;
+}
+footer{
+    padding: 200px;
+    background-color: green;
+    max-height: 100px;
+} */
+
+/* .cls1{
+    float: right;
+}
+.cls2{
+    clear: right;
+} */
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows:auto ;
+    grid-template-areas: " . header header header header"
+    "main main main main sidebar"
+    "footer footer footer footer footer";
+    min-height: 500px;
+    background-color: rgb(165, 165, 192);
+
+
+}
+.kid1{
+    grid-area: header;
+    background-color:yellow;
+
+}
+.kid2{
+    grid-area: main;
+    background-color: orange;
+}
+.kid3{
+    grid-area: sidebar;
+    background-color: red;
+}
+.kid4{
+    grid-area: footer;
+    background-color: black;
+}
